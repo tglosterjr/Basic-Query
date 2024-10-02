@@ -1,0 +1,10 @@
+In this mini project, I was tasked with filtering the data of diamond quality. My code is below.
+
+library(ggplot2)
+> data("diamonds")
+> View(diamonds)
+> head(diamonds)
+> str(diamonds)
+> colnames(diamonds)
+> library(tidyverse)
+> mutate(diamonds, carat_2=carat*100)
